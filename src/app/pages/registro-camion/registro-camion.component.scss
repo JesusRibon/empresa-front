@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #b0e0e6 ;
+}
+
+.contenedor{
+    max-width: 730px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    height: 500px;
+}
+  
+.titulo{
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+  position: relative;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+}
+
+.content form .detalles_usuario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 12px 0;
+}
+  
+form .detalles_usuario .input_box{
+    margin-bottom: 15px;
+}
+  
+form .input_box span.detalles{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.input_box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #cccccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.button{
+    height: 60 px;
+    margin: 35px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.button input{
+    padding: 10px;
+    height: 50%;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #a8e8e9, #8dbfd6);
+}
+
+.volver{
+    height: 50px;
+    margin-left: 120px;
+    padding: 10px;
+    height: 50%;
+    width: 64%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #a8e8e9, #8dbfd6);
+}
